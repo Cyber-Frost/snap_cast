@@ -181,5 +181,3 @@ const UploadVideoPage = () => {
 };
 
 export default UploadVideoPage;
-
-// 2:34:01
