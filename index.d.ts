@@ -8,13 +8,6 @@ declare interface User {
   id: string;
 }
 
-type VideoFormValues = {
-  title: string;
-  description: string;
-  tags: string;
-  visibility: "public" | "private";
-};
-
 declare interface FormFieldProps {
   id: string;
   label: string;
@@ -90,6 +83,7 @@ declare interface VideoDetailHeaderProps {
   ownerId: string;
   visibility: string;
   thumbnailUrl: string;
+  id: string;
 }
 
 declare interface VideoPlayerProps {
